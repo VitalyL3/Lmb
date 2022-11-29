@@ -1,0 +1,44 @@
+body {
+  color: #5e5373;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.rootpage-body {
+  position: relative;
+  padding: 30px;
+  flex: 1 1 auto;
+}
+.pages {
+  display: inline-block;
+  margin-left: 30px;
+}
+h1 {
+  font-size: 40px;
+  margin: 0px 0px 30px 0px;
+}
+a {
+  color: #5e5373;
+  text-decoration: none;
+  display: flex;
+}
+ul {
+  padding-left: 40px;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+}
+li span {
+  color: #5e5373;
+  padding-right: 10px;
+  font-size: 22px;
+}
+a h3 {
+  color: #1776a1;
+  text-decoration: underline;
+  margin: 0;
+}
+a:hover h3 {
+  text-decoration: none;
+}
